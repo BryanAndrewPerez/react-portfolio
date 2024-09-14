@@ -1,0 +1,64 @@
+.navbar{
+    height: 5rem;
+    width: 100%;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    z-index: 3;
+    background: black;
+    
+}
+
+.contactListItem{
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.contactListItem:hover{
+    color:red;
+    padding-bottom: 0.5rem;
+    border-bottom:  3px solid red;
+
+}
+
+/* CSS */
+.contactBtn {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.contactBtn:hover,
+.contactBtn:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.contactBtn:active {
+  opacity: .5;
+}
